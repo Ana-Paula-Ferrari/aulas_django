@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+{%load static%}<!--usar o static aqui-->
+
+{%block 'conteudo'%}
+<p>SOBRE</p>
+<p>
+    <img src="{% static 'img/a.jpg' %}" style="width: 640px; heigth: auto"> <!--{% static 'caminho do arq.' %}-->
+</p>
+{%endblock%}
